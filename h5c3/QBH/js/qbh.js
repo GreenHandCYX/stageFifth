@@ -204,6 +204,6 @@ $(document).ready(function() {
     });
 
     $('.qbh-shopping-again').on('click', function() {
-        location.reload();
+        $('#dowebok').fullpage.moveTo(1);
     })
 });
